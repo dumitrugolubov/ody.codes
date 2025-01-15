@@ -1,6 +1,6 @@
-# Redirect HTTP to HTTPS
+# Redirect domain to www
 http://ody.codes/* https://www.ody.codes/:splat 301!
-http://www.ody.codes/* https://www.ody.codes/:splat 301!
-
-# Redirect non-www to www (HTTPS)
 https://ody.codes/* https://www.ody.codes/:splat 301!
+
+# Redirect HTTP www to HTTPS www
+http://www.ody.codes/* https://www.ody.codes/:splat 301!
